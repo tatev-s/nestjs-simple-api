@@ -57,6 +57,22 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## Environment variables
+
+```bash
+PORT=4000
+NODE_ENV=development
+
+#Auth
+JWT_SECRET_KEY=
+
+#DB PostgreSQL 
+DATABASE_HOST=
+DATABASE_PORT=
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
+DATABASE_NAME=
+```
 
 ## Deployment
 
